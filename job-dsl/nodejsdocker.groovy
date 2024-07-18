@@ -17,7 +17,7 @@ job('NodeJS Docker example') {
             repositoryName('arunkumarrajan/docker-nodejs-demo')
             tag('${GIT_REVISION,length=9}')
             // registryCredentials('arunkumarrajan')
-            registryCredentialsId('8823705b-5ceb-4ff9-b345-606fe1f4fd4b')
+            registryCredentials('8823705b-5ceb-4ff9-b345-606fe1f4fd4b')
             forcePull(false)
             forceTag(false)
             createFingerprints(false)
